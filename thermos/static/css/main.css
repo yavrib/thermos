@@ -78,6 +78,11 @@ body {
     border-top: 20px solid #e44d26;
 }
 
+.footer-container{
+  bottom: 0px;
+  margin-top: 445px;
+}
+
 .header-container,
 .footer-container,
 .main aside {
@@ -370,4 +375,38 @@ nav a:hover {
     h3 {
         page-break-after: avoid;
     }
+}
+
+.flashes ul {
+  margin: 0 0;
+  background: #FFD6A3;
+  color: #000;
+
+  list-style-type: none;
+  list-style: none;
+}
+
+.flashes ul {
+  background: #FFD6A3;
+  color: #000;
+}
+
+article.flashes{
+  margin-bottom: 1em;
+}
+
+.error, .error input {
+  color: red;
+}
+
+tr.error td ul {
+  margin-top: 0;
+}
+
+tr.submit button {
+  margin-top: 20px;
+}
+
+input, button {
+  margin-left: 10px;
 }
